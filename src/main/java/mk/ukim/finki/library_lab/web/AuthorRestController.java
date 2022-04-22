@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/authors")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class AuthorRestController {
 
     private final AuthorService authorService;
