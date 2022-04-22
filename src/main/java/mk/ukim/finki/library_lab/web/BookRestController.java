@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@CrossOrigin(origins = "https://emtlabfrontend193049.herokuapp.com")
+@CrossOrigin
 public class BookRestController {
 
     private final BookService bookService;
