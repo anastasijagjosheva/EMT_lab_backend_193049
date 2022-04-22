@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/authors")
-@CrossOrigin
+@CrossOrigin(origins = "https://emtlabfrontend193049.herokuapp.com")
 public class AuthorRestController {
 
     private final AuthorService authorService;
